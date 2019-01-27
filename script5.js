@@ -1,0 +1,10 @@
+document.getElementById("changed1").style.color = "red";
+document.getElementById("changed2").style.color = "red";
+document.getElementById("changed3").style.color = "red";
+document.getElementById("changed4").style.color = "red";
+document.getElementById("changed5").style.color = "red";
+document.getElementById("changed6").style.color = "red";
+document.getElementById("changed7").style.color = "red";
+document.getElementById("changed8").style.color = "red";
+document.getElementById("changed9").style.color = "red";
+document.getElementById("changed10").style.color = "red";

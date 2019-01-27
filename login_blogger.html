@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="CSS/a.css">
+</head>
+	<div class="heading"><h2>Bloggers.com</h2><span style="color:white;"><?php 
+		session_start();
+		if(isset($_SESSION['email']))
+			echo "Logged in as ".$_SESSION['email'];
+		else{
+	
+	}</div>
+	<ul>
+		<li><a  href="home.php">Home</a></li>
+		<li id="a1"><a id="onlink" href="login_blogger.html">Login</a></li>
+		<li id="a1"><a href="signup_blogger.html">Sign up</a></li>
+		<li id="a1"><a href="Add_blog.php">Add blog</a></li>
+		<li id="a1"><a href="logout.php">Log out</a></li>
+	</ul>
+	<br><br><br><br><br>
+	<form action="res_login.php" method="POST">
+		<span class="a">Email</span>
+		<input type="text" name="email">
+		<br><br>
+		<span class="a">Password:</span>
+		<input type="text" name="password">
+		<br><br>
+		<span class="b"></span>
+		<input type="submit" name="submit">
+	</form>
+</html>
